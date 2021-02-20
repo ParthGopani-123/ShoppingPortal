@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ShoppingPortal", "ShoppingPortal\", "{B0539589-F96D-4BAA-980D-2CC249CC7C37}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = ""
+		Debug.AspNetCompiler.VirtualPath = "/ShoppingPortal"
+		Debug.AspNetCompiler.PhysicalPath = "ShoppingPortal\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ShoppingPortal\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ShoppingPortal"
+		Release.AspNetCompiler.PhysicalPath = "ShoppingPortal\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ShoppingPortal\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4937"
+		SlnRelativePath = "ShoppingPortal\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0539589-F96D-4BAA-980D-2CC249CC7C37}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{B0539589-F96D-4BAA-980D-2CC249CC7C37}.Debug|.NET.Build.0 = Debug|Any CPU
+		{B0539589-F96D-4BAA-980D-2CC249CC7C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0539589-F96D-4BAA-980D-2CC249CC7C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0539589-F96D-4BAA-980D-2CC249CC7C37}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B0539589-F96D-4BAA-980D-2CC249CC7C37}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B0539589-F96D-4BAA-980D-2CC249CC7C37}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{B0539589-F96D-4BAA-980D-2CC249CC7C37}.Release|.NET.Build.0 = Debug|Any CPU
+		{B0539589-F96D-4BAA-980D-2CC249CC7C37}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0539589-F96D-4BAA-980D-2CC249CC7C37}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B0539589-F96D-4BAA-980D-2CC249CC7C37}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B0539589-F96D-4BAA-980D-2CC249CC7C37}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E12BE5A0-1C91-4AA2-AD7A-BB73993E3871}
+	EndGlobalSection
+EndGlobal

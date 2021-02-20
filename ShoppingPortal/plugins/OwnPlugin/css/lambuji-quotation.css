@@ -1,0 +1,2036 @@
+.panel-footer {
+    background-color: #fff;
+}
+/* checkbox */
+/*.checkbox-custom input[type=checkbox] + label:after
+{
+    top: -1.6px;
+    left: 0.4px;
+    font-family: FontAwesome;
+    content: "\f14a";
+    font-size: 15px;
+}
+.checkbox-custom input[type=checkbox] + label:before
+{
+    width: 13.5px;
+}
+.checkbox-custom label, .radio-custom label, .switch label
+{
+    padding-left: 17px;
+}*/
+/* Select Hotel */
+.pnlQuotation {
+    margin-top: -3px;
+    background-color: #ebeced;
+}
+
+.left-section {
+    float: left;
+    width: 30%;
+}
+
+.right-section {
+    float: right;
+    width: 70%;
+}
+
+.lblhoteltitle {
+    color: #f59f1f;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.hotel-list {
+    margin: 0 10px 0px 0px;
+    border-bottom: 1px solid #ddd;
+}
+.hotelaccordion {
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.hotel-detail {
+    font-size: 17px;
+    cursor: pointer;
+    display: table;
+    width: 100%;
+}
+
+.expand-collespan-button {
+    margin-right: 5px;
+    font-size: 20px;
+    color: #333344;
+}
+
+.hotel-status {
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    color: #fff;
+    padding: 4px 5px;
+    font-size: 12px;
+}
+
+    .hotel-status.available {
+        background: #008000;
+    }
+
+    .hotel-status.notavailable {
+        background: #c96363;
+    }
+
+.btnmoredetails {
+    font-size: 13px;
+    font-weight: normal;
+    border-radius: 4px;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #989898;
+    padding: 3px 10px;
+    color: #989898 !important;
+}
+
+    .btnmoredetails:hover {
+        background: #fbfbfb;
+    }
+
+.pHotelprice {
+    margin-bottom: 0px;
+    color: #7d7d7d;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Arial";
+}
+
+.spanHotelprice {
+    display: inline-block;
+    min-width: 100px;
+    margin-bottom: 15px;
+    color: #036192;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.divsearchpricerange {
+    margin: 5px 5px 10px 5px;
+    height: 0.5em !important;
+}
+
+    .divsearchpricerange .ui-widget-header {
+        background: #333344;
+        background: -webkit-linear-gradient(#333344, #414173);
+        background: -o-linear-gradient(#333344, #414173);
+        background: -moz-linear-gradient(#333344, #414173);
+        background: linear-gradient(#333344, #414173);
+    }
+
+    .divsearchpricerange span.ui-slider-handle {
+        top: -0.4em !important;
+        border-radius: 50%;
+        background: #c4d4dc;
+        background: -webkit-linear-gradient(#c4d4dc, #ffffff);
+        background: -o-linear-gradient(#c4d4dc, #ffffff);
+        background: -moz-linear-gradient(#c4d4dc, #ffffff);
+        background: linear-gradient(#c4d4dc, #ffffff);
+        border: 1px solid #bfbfbf;
+        cursor: pointer;
+    }
+
+.lblsearchpriceselect {
+    font-weight: bold;
+}
+
+.cancel-policy {
+    font-size: 12px;
+    font-weight: normal;
+    color: #cc1007 !important;
+    text-decoration: underline !important;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.add-to-quote {
+    font-size: 15px;
+    font-weight: normal;
+    color: green !important;
+    text-decoration: underline !important;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.book-now {
+    color: #fff;
+    font-size: 13px;
+    padding: 6px 10px 3px 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+    border: 0;
+    display: inline-block;
+    background: #ff9b00;
+}
+
+    .book-now:hover {
+        color: #fff;
+        background: #309cc3;
+        transform: translateY(1px);
+    }
+
+.tblhotel-detail {
+    width: 100%;
+    font-size: 17px;
+}
+
+    .tblhotel-detail tr {
+        height: 34px;
+    }
+
+.tdHHotelName {
+    padding-left: 10px;
+}
+
+.lblHHotelName {
+    max-width: 240px;
+    margin-bottom: 0px;
+    vertical-align: bottom;
+}
+
+.imgHHotelStar {
+    height: 18px;
+    vertical-align: initial;
+    padding-top: 4px;
+}
+
+.tdHDestination {
+    width: 140px;
+    padding-left: 10px;
+    vertical-align: bottom;
+}
+
+.hotel-destination {
+    display: inline-block;
+    font-size: 12px;
+    width: 130px;
+    margin-bottom: 1px;
+}
+
+.tdHHotelPrice {
+    width: 150px;
+    padding: 0px 10px;
+    text-align: right;
+}
+
+.hotel-price {
+    width: 132px;
+    display: inline-block;
+    color: #8b0000;
+}
+
+.hotel-detail.active .hotel-price {
+    display: none;
+}
+
+.tdHHotelStatus {
+    vertical-align: top;
+    width: 140px;
+}
+
+.tdHMAnageHotel {
+    width: 17px;
+}
+
+.hotel-detail.active .hcollespanicon {
+    display: block;
+}
+
+.hcollespanicon {
+    display: none;
+}
+
+.hotel-detail.active .hexpandicon {
+    display: none;
+}
+
+.hexpandicon {
+    display: block;
+}
+
+.deep-details {
+    display: table;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+}
+
+.tbldeep-details {
+    width: 100%;
+}
+
+.tdHDHotelImage {
+    padding: 3px 0px 0px 00px;
+    vertical-align: top;
+    width: 140px;
+}
+
+.HHotelImage {
+    width: 130px;
+    height: 130px;
+}
+
+.tdHDHotelPrice {
+    text-align: center;
+    padding: 2px 0px 0px 10px;
+    vertical-align: top;
+    width: 180px;
+}
+
+.tdHDHotelDetail {
+    vertical-align: top;
+}
+
+.divHDHotelDetail {
+    color: #7d7d7d;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.property-location {
+    text-align: justify;
+}
+
+.property-location, .address {
+    margin-bottom: 10px;
+}
+
+.tblRoomDetail {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+    .tblRoomDetail thead {
+        background: #ad0d0d;
+        color: #fff;
+        border: 1px solid #ad0d0d;
+        font-size: 13px;
+    }
+
+        .tblRoomDetail thead tr td {
+            padding: 7px 10px 7px 10px;
+        }
+
+    .tblRoomDetail tbody tr {
+        border: 1px solid #ddd;
+        color: #333344;
+    }
+
+        .tblRoomDetail tbody tr td {
+            padding: 7px 10px 7px 10px;
+            vertical-align: top;
+        }
+
+.trBookNow {
+    background-color: #f4f2ed;
+}
+
+    .trBookNow td {
+        vertical-align: bottom !important;
+    }
+
+.tdroom-type {
+    width: 30%;
+}
+
+.tdinclusion {
+    width: 20%;
+}
+
+.tdno_of_rooms {
+    width: 15%;
+}
+
+.tdroomstatus {
+    width: 15%;
+}
+
+.tdper_room_rate {
+    width: 20%;
+}
+
+.tdTotalAmount {
+    color: #4e4e4e;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: right;
+}
+
+.lblHotelTotalAmount {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.trNoBorder {
+    border: none !important;
+}
+
+
+.boardbasisblock {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.boardbasisflheadingicon {
+    color: #8f8f8f;
+    right: -7px;
+    position: absolute;
+    font-size: 22px !important;
+    top: 6px;
+}
+
+.boardbasisblock {
+    float: left;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #8f8f8f;
+    padding: 0;
+    margin: 10px 0 10px 0;
+}
+
+.boardbasisflheading {
+    display: inline-block;
+    width: 20%;
+    background: #8f8f8f;
+    font-size: 15px;
+    padding: 7px 15px 5px 15px;
+    position: relative;
+    margin: 0 5px 0 0;
+    color: #fff;
+}
+
+.divboardbasislist {
+    display: initial;
+}
+
+    .divboardbasislist > .checkbox-custom input[type=checkbox] + label {
+        line-height: 1.7 !important;
+    }
+
+        .divboardbasislist > .checkbox-custom input[type=checkbox] + label:before {
+            top: 4px !important;
+        }
+
+.modelzindex {
+    z-index: 999999;
+}
+
+.modal-backdrop {
+    z-index: 100001;
+}
+
+.tblCancellationPolicy tr td, .tblCancellationPolicy tr th {
+    text-align: center;
+}
+
+.HotelDetailHeading {
+    color: #036192;
+    font-size: 18px;
+    display: block;
+}
+
+.hoteldetailpopupsidebar {
+    margin-top: 53px;
+}
+
+.tdFacilitiesIcon {
+    font-size: 13px;
+    color: #ff9b00;
+    font-weight: normal;
+    margin-right: 10px;
+    vertical-align: top;
+    width: 20px;
+}
+
+.tdFacilitiesDetail {
+    font-size: 13px;
+    padding-bottom: 3px;
+}
+
+.hoteldetailimage {
+    height: 370px !important;
+    width: 100%;
+}
+
+.hoteldetailmap {
+    height: 370px;
+    width: 100%;
+}
+
+.search-title {
+    padding: 5.5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff !important;
+    background: #333344 !important;
+    border: 1px solid #334 !important;
+    width: 100%;
+    display: inline-block;
+}
+
+    .search-title.active {
+        background: #334 !important;
+    }
+
+    .search-title i {
+        float: right;
+        background: #fff;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 50%;
+        color: #333344;
+        font-size: 14px;
+        display: none;
+    }
+
+    .search-title.active .fa-minus {
+        display: block;
+    }
+
+    .search-title.active .fa-plus {
+        display: none;
+    }
+
+    .search-title .fa-plus {
+        display: block;
+    }
+
+    .search-title.active i {
+        background: #ffffff;
+        color: #334;
+    }
+
+.divHotelSearchDetail {
+    padding: 5px 10px 0px 10px;
+    border: 1px solid #334;
+    border-top: none;
+    background-color: #fff;
+}
+
+.divHotelSearchAcc {
+    padding-bottom: 5px;
+}
+
+
+/* ---------------------------------------- */
+.divddlnoborder select {
+    border: none;
+}
+
+.divddlnoborder .select2-container--default {
+    margin-top: 10px;
+}
+
+    .divddlnoborder .select2-container--default .select2-selection--single {
+        border: none;
+    }
+
+    .divddlnoborder .select2-container--default.select2-container--open.select2-container--above .select2-selection--single, .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple, .select2-container--open .select2-selection--single {
+        border: 1px solid #d6d6d6 !important;
+    }
+
+.divddlnoborder .select2-selection:focus, .select2-container--open .select2-selection--single {
+    box-shadow: none;
+}
+
+.divddlnoborder .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    display: block;
+}
+
+.divddlnoborder .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    display: none;
+}
+
+.tabfixheight {
+    height: 81.8vh;
+    max-height: 81.8vh;
+}
+/** Qutation Title **/
+.divquothead {
+    display: flex;
+}
+
+.divquottitle {
+    width: 70%;
+    display: inline-block;
+    padding-top: 8px;
+}
+
+.divdate {
+    width: 15%;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.divarrivaldate {
+    background-color: #07a342;
+}
+
+.divdeparturedate {
+    background-color: #ef7f1b;
+}
+
+.spandatetitle {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+
+.spandate {
+    font-size: 23px;
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+
+.lblquottitle {
+    font-size: 28px;
+}
+
+.txtArrivalDate {
+    padding: 0;
+    height: 0px;
+    border: none;
+    display: block;
+}
+/* Quotation Detail */
+.tblquotdetail {
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(41,51,57,.5);
+    background-color: #fff;
+}
+
+    .tblquotdetail a {
+        cursor: pointer;
+    }
+
+        .tblquotdetail a:hover, .tblquotdetail a:focus {
+            color: #0667D6 !important;
+        }
+
+    .tblquotdetail tr td {
+        padding: 5px;
+    }
+
+    .tblquotdetail tr {
+        border-top: 1px solid #d6d6d6;
+    }
+
+.tdquothead {
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #333344;
+    border-right: 1px solid #d6d6d6;
+    width: 150px;
+    display: block;
+    color: #fff;
+}
+
+.tdcomplitequotdetail {
+    background-color: #e2ffe2;
+    color: #000;
+}
+
+.tdquotdetail1 {
+    width: 32%;
+}
+
+.tdquotdetail2 {
+    width: 32%;
+}
+
+.tdquotdetail3 {
+    width: 36%;
+}
+
+.tdquotdetail {
+    padding: 0px 0px 0px 13px !important;
+}
+/* Quotation Detail */
+.viewprice {
+    margin: 7px 9px 5px 0px;
+    height: 34px;
+}
+
+.ihideshowprice {
+    padding: 2px;
+    border: 1px solid;
+    border-radius: 100%;
+    font-size: 14px;
+}
+
+.ishowprice {
+    color: #0667D6;
+}
+
+.ihideprice {
+    color: #c02533;
+}
+
+.divquotdetail {
+}
+
+.divaccordion {
+}
+
+.divmainaccordion {
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(41,51,57,.5);
+}
+
+.divaccordionlist {
+    cursor: pointer;
+    padding: 0px 0px 0px 8px;
+    background-color: #fff;
+}
+
+.divmainaccordion.active .divaccordionlist {
+}
+
+.divmainaccordion.active .lblaccordion {
+    color: #e58123;
+    font-weight: bold;
+}
+/* Room Detail */
+.divRoomDetail {
+    z-index: 9;
+    position: absolute;
+    background-color: white;
+    width: 341px;
+    border: 1px solid #d6d6d6;
+    margin-top: 7px;
+    display: none;
+}
+
+.divRoomDetailBody {
+    padding: 10px;
+}
+
+.divRoomDetailFotter {
+    text-align: right;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.divRoomDetail::before {
+    position: absolute;
+    top: -14px;
+    left: 15px;
+    font-family: themify;
+    content: "\e648";
+    color: #d6d6d6;
+    background-color: #fff;
+}
+
+.divRoomDetail tr td, .divHotelRoomDetail tr td {
+    padding: 2px 2px;
+    vertical-align: top;
+}
+
+.divRoomDetail tr {
+    border-top: none;
+}
+
+.txtroomspinner {
+    width: 35px !important;
+    padding: 0px 0px 0px 0px;
+}
+
+.tdRooms {
+    width: 64px;
+    padding-top: 9px !important;
+}
+
+.tdAdult {
+    width: 60px;
+}
+
+.tdChild {
+    width: 68px;
+}
+
+.tdChildAge1 {
+    width: 68px;
+}
+
+.tdChildAge2 {
+    width: 60px;
+}
+
+.tblPassengerDetail {
+    width: 100%;
+}
+/* Passenger Detail */
+.ddltitle, .tdTitle {
+    width: 86px;
+}
+
+.txtpaxname, .tdpaxname {
+    min-width: 150px;
+}
+
+.txtage, .tdAge {
+    width: 60px;
+}
+
+.txtpaxdate, .tdpaxdate {
+    width: 120px;
+}
+
+.txtpassportno, .tdPassportNo {
+    width: 130px;
+}
+
+.trpaxdetail td {
+    border: 1px solid #d6d6d6;
+    padding-right: 1.5px;
+}
+
+    .trpaxdetail td select, .trpaxdetail td input {
+        border: none;
+        margin: 0px 1px 2px 0px;
+    }
+
+.trpaxhead td {
+    color: #b1b1b1;
+}
+
+.deletepassangerdetail {
+    font-size: 10px;
+    padding: 5px 5px 4.2px 5px;
+    display: flex;
+    margin-left: 5px;
+    color: #5ca6ce;
+    border: 1px solid #5ca6ce;
+    border-radius: 50%;
+}
+
+    .deletepassangerdetail:hover {
+        color: #fff;
+        background-color: #c02533;
+        border: 1px solid #c02533;
+    }
+
+.tdaddpassangerdetail {
+    text-align: right;
+    padding-top: 5px;
+}
+
+.tdremovepassangerdetail {
+    width: 25px;
+}
+
+/* Tabel Price */
+.tblprice {
+    float: right;
+}
+
+.tblpricehead {
+    display: initial;
+    margin-top: -1px;
+    display: none;
+}
+
+.divmainaccordion.active .tblpricehead {
+    display: block;
+}
+
+.tblpricehead tr {
+    height: 38px;
+}
+
+    .tblpricehead tr td {
+        border-left: 1px solid #d6d6d6;
+        color: #cacaca;
+    }
+
+.tblpricebody {
+}
+
+    .tblpricebody tr td {
+        border-left: 1px solid #d6d6d6;
+    }
+
+.tdExtraHotel .tblpricebody tr {
+    height: 89px;
+}
+
+.tdExtraInclusion .tblpricebody tr {
+    height: 42px;
+}
+
+.hoverhideprice {
+    width: 0px !important;
+    max-width: 0px !important;
+    min-width: 0px !important;
+    border: none !important;
+    display: none;
+}
+
+.hoverhidepricenotactive input {
+    background-color: #fff !important;
+    color: #737373 !important;
+}
+
+.hovershowprice {
+    width: 270px !important;
+    max-width: 270px !important;
+    min-width: 270px !important;
+}
+
+.hoverhideprice input {
+    width: 0px;
+}
+
+.tdsingleprice {
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+    text-align: center;
+}
+
+.tdtwinprice {
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+    text-align: center;
+}
+
+.tdadultprice {
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+    text-align: center;
+}
+
+.tdchildnbprice {
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+    text-align: center;
+}
+
+.tdchildwbprice {
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+    text-align: center;
+}
+
+.tdinfprice {
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+    text-align: center;
+}
+
+.txtprice {
+    text-align: center;
+}
+
+.accordionlink {
+    margin-left: 10px;
+    font-size: 12px;
+    display: none;
+}
+
+.divmainaccordion.active .accordionlink {
+    display: initial;
+}
+/* accordion */
+.lblaccordion {
+    color: #737373;
+    margin-bottom: 0px;
+    font-size: 15px;
+    cursor: inherit;
+    padding: 8px 0px;
+}
+
+.lblComStatusHead {
+    cursor: inherit;
+    padding: 8px 0px;
+}
+
+.lblComStatus {
+    margin-right: 8px;
+    float: right;
+    height: 15px;
+    width: 22px;
+    text-align: center;
+}
+
+.divmainaccordion.active .accordioniconhead {
+    color: #E31E24;
+}
+
+.accordioniconhead {
+    text-align: center;
+}
+
+.accordioniconhead {
+}
+
+.accordioniconhead, .accordionicon {
+    font-size: 21px !important;
+}
+
+.accordionicon-complite, .accordionicon-allcomplite {
+    font-size: 10px !important;
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 100%;
+}
+
+.accordionicon-notcomplite {
+    color: #ed3071 !important;
+}
+
+.accordioniconhead.accordionicon-notcomplite { /*color: #fff !important;     background-color: #ed3071;     border-color: #ed3071;*/
+    font-size: 18px !important;
+    padding-top: 4px;
+}
+
+.accordionicon-complite {
+    color: #EF7F1A !important;
+}
+
+.accordioniconhead.accordionicon-complite {
+    color: #fff !important;
+    background-color: #EF7F1A;
+    border-color: #EF7F1A;
+}
+
+.accordionicon-allcomplite {
+    color: #038e50 !important;
+}
+
+.accordioniconhead.accordionicon-allcomplite {
+    color: #fff !important;
+    background-color: #038e50;
+    border-color: #038e50;
+}
+
+.divmainaccordion.active .divaccordiondetail {
+    display: block;
+    overflow: auto;
+}
+
+.divaccordiondetail {
+    display: none;
+}
+
+/* Air Ticket */
+.AirticketDetail {
+    padding: 0px;
+}
+
+.tblAirTicket {
+    width: 100%;
+}
+
+.trAirTicket {
+    border-top: 1px solid #d6d6d6;
+    height: 45px;
+}
+
+    .trAirTicket .divhoverview {
+        margin-top: 12px;
+    }
+
+.lblAirticket {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0px;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.txtAirticket {
+    height: 45px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.txthoveredit {
+    width: 100%;
+    border: none;
+}
+
+.tdquotdetail3 .txthoveredit {
+    width: 98% !important;
+}
+
+.txthoveredit:hover:not(:focus) {
+    color: #0667D6;
+}
+
+    .txthoveredit:hover:not(:focus)::-webkit-input-placeholder {
+        color: #0667D6 !important;
+    }
+
+    .txthoveredit:hover:not(:focus)::-webkit-input-placeholder {
+        color: #0667D6 !important;
+    }
+
+.txthovereditactive, .txthoveredit:hover {
+    background-color: #f4f8fa;
+    color: #5ca6ce;
+    cursor: pointer;
+}
+
+.txthoveredit:focus {
+    background-color: #fff;
+    color: #737373;
+    cursor: auto;
+}
+
+.txtAirticket, .txtAirticket:focus {
+    text-transform: uppercase;
+}
+
+.txthovereditactive {
+    text-transform: capitalize;
+}
+
+    .txthovereditactive:not(:focus)::-webkit-input-placeholder, .txthoveredit:hover:not(:focus)::-webkit-input-placeholder {
+        color: #5ca6ce;
+    }
+
+    .txthovereditactive:not(:focus):-moz-placeholder, .txthoveredit:hover:not(:focus):-moz-placeholder {
+        color: #5ca6ce;
+    }
+
+
+
+.tdAirline {
+    width: 116px;
+    min-width: 116px;
+    max-width: 116px;
+}
+
+.lblAirlineName {
+    max-width: 112px;
+}
+
+.tdAirTicketFromTo {
+    width: 75px;
+    min-width: 75px;
+    max-width: 75px;
+}
+
+.lblAirTicketFromToName {
+    max-width: 70px;
+}
+
+.tdAirTicketDepArr {
+    width: 142px;
+    min-width: 142px;
+    max-width: 142px;
+}
+
+.lblAirTicketDepArr {
+    max-width: 140px;
+}
+
+.tdManageAirTicket {
+    vertical-align: middle;
+    text-align: center;
+    width: 31px;
+    max-width: 31px;
+    min-width: 31px;
+    padding: 0px 5px 0px 5px;
+    font-size: 7px;
+}
+
+.tdExtraAirTicket { /*width: 44%;*/
+}
+
+/* Hotel List */
+.trSelectHotel {
+    height: 62px;
+}
+
+.imgHotelThumb {
+    height: 89px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.HotelDetail {
+    padding: 4px 0px 4px 4px;
+}
+
+.tdDetail {
+    font-weight: 100;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.tblHotel {
+    width: 100%;
+}
+
+.trHotel {
+    border-top: 1px solid #d6d6d6;
+    height: 85px;
+}
+
+.trHotelDetail {
+    height: 89px;
+}
+
+.divHotel {
+    display: inline-block;
+    width: 320px;
+    min-width: 320px;
+    max-width: 320px;
+    margin-left: -3px;
+    height: 89px;
+}
+
+.tdNoHotel {
+    width: 410px;
+    min-width: 410px;
+    max-width: 410px;
+}
+
+.tdStatus {
+}
+
+.tdHotelStatus {
+    padding: 3px 8px 0px 0px;
+    vertical-align: sub;
+}
+
+.HotelStatus {
+    display: block;
+    font-size: 12px;
+    height: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 455px;
+}
+
+.HotelStatus1 {
+    font-size: 14px;
+    height: 20px;
+}
+
+.hotelstatus-green {
+    color: #07a342;
+}
+
+.hotelstatus-red {
+    color: #f00;
+}
+
+.hotelstatus-orange {
+    color: #ef7f1b;
+}
+
+.tdExtraHotel {
+    width: 69%;
+}
+
+.divHotelTitle {
+    display: flex;
+}
+
+.imghotelstar {
+    height: 14px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.tdHotelDetail {
+    width: 408px;
+    min-width: 408px;
+    max-width: 408px;
+}
+
+.divHotelImage {
+    width: 86px;
+    min-width: 86px;
+    max-width: 86px;
+    display: inline-block;
+}
+
+
+.lbldestinationname {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: -2px;
+}
+
+.lblhotelname {
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: -1px;
+    display: block;
+    color: #0d07ff;
+}
+
+.lblhoteldesc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    color: #888888;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.tdManageHotel {
+    text-align: center;
+    width: 41px;
+    min-width: 41px;
+    padding: 6px 8px 0px 7px;
+    font-size: 12px;
+}
+
+.sorticon {
+    cursor: all-scroll;
+    font-size: 18px;
+    display: inline-block;
+    padding-top: 3px !important;
+}
+
+.sorticon, .addicon, .removeicon {
+    color: #cacaca;
+}
+
+.trHotel:hover .addicon, .trHotel:hover .sorticon, .trHotel:hover .removeicon {
+    display: inline-flex;
+}
+
+.addicon i, .removeicon i {
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 100%;
+}
+
+.tdManageHotel .sorticon, .tdManageHotel .addicon, .tdManageHotel .removeicon {
+    padding: 2px 0px;
+    display: none;
+}
+
+.trAirTicket:hover .addicon, .trAirTicket:hover .removeicon {
+    display: flex;
+}
+
+.tdManageAirTicket .addicon, .tdManageAirTicket .removeicon {
+    display: inline-flex;
+    padding: 2px;
+    display: none;
+}
+
+.sorticon:hover, .sorticon:focus {
+    color: #5ca6ce;
+}
+
+.addicon:hover, .addicon:focus {
+    color: #009846;
+}
+
+.removeicon:hover, .removeicon:focus {
+    color: #c02533;
+}
+
+.divhover:hover:not(.notHover), .divhoveractive:not(.notHover) {
+    background-color: #f4f8fa;
+    padding: 0px;
+}
+
+    .divhover:hover:not(.notHover) .divhoverhide, .divhoveractive:not(.notHover) .divhoverhide {
+        margin-top: -86px;
+        opacity: 0.5;
+        pointer-events: none;
+    }
+
+.notHover .divhoverview {
+    display: none;
+}
+
+.divhoverview {
+    text-align: center;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: relative;
+    z-index: 9;
+    display: none;
+}
+
+.divHotel .divhoverview {
+    margin-top: 33px;
+}
+
+.divhover:hover:not(.notHover) .divhoverview, .divhoveractive:not(.notHover) .divhoverview {
+    display: block;
+}
+
+
+.divhoverview a {
+    cursor: pointer;
+    font-size: 12px;
+    display: inline-block;
+    background-color: #fff;
+    padding-top: 4px;
+}
+
+.arrivalicon {
+    color: #ffffff;
+    opacity: 0.3;
+}
+
+.tDnD_whileDrag {
+    background-color: #e5f9e5;
+}
+
+/* Inclusion */
+.InclusionDetail {
+    padding: 4px 4px 4px 8px;
+}
+
+.tblInclusion {
+    width: 100%;
+}
+
+.trInclusion {
+    border-top: 1px solid #d6d6d6;
+    height: 43px;
+}
+
+    .trInclusion .divhoverview {
+        margin-top: 12px;
+    }
+
+    .trInclusion:hover .removeicon {
+        display: inline-flex;
+    }
+
+    .trInclusion .removeicon {
+        display: none;
+    }
+
+.txtmanualinclusion {
+    height: 34px;
+    font-size: 15px;
+}
+
+.txtInclusionPrice {
+    height: 42px;
+    font-size: 15px;
+}
+
+.lblInclusion {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0px;
+    font-size: 14px;
+    margin-top: 7px;
+    /*max-width: 600px;*/
+}
+
+.tdManageInclusion {
+    vertical-align: middle;
+    text-align: center;
+    width: 38px;
+    padding: 8px 8px 8px 8px;
+    font-size: 12px;
+}
+
+.tdInDate {
+    width: 95px;
+    min-width: 95px;
+    max-width: 95px;
+    font-size: 14px;
+}
+
+    .tdInDate .select2-container--default.select2-container--disabled .select2-selection--single {
+        background-color: #fff;
+    }
+
+.tdddl .InclusionDetail, .tdddl .VisaDetail {
+    padding-top: 3px;
+}
+
+.tdddl .select2-selection:focus {
+    outline: none !important;
+    box-shadow: none;
+    border-color: #66afe9;
+}
+
+.tdddl .select2-container--default .select2-selection--single {
+    border: 1px solid #fff;
+}
+
+.tdInTime {
+    width: 115px;
+    min-width: 115px;
+    max-width: 115px;
+    text-align: center;
+}
+
+.tdInDetail {
+    width: 100%;
+}
+
+.tdExtraInclusion { /* width: 42%; */
+}
+
+/* Visa Detail */
+.tblVisa {
+    width: 100%;
+}
+
+.trVisa {
+    border-top: 1px solid #d6d6d6;
+    height: 42px;
+}
+
+.tdVisaPrice .tblpricebody tr {
+    height: 41px;
+}
+
+.tdVisaCountry {
+    width: 165px;
+    min-width: 165px;
+    max-width: 165px;
+    vertical-align: middle;
+}
+
+.tdVisaApproveby {
+    width: 165px;
+    min-width: 165px;
+    max-width: 165px;
+}
+
+.tdVisaType {
+    width: 140px;
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.tdVisaApplayStatus {
+    vertical-align: middle;
+    color: #ccc;
+    width: 250px;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+    .tdVisaApplayStatus .checkbox-custom input[type=checkbox] + label:before {
+        border: 1px solid #ccc;
+    }
+
+    .tdVisaApplayStatus .checkbox-custom input[type=checkbox] + label:after {
+        color: #ccc;
+    }
+
+.VisaDetail {
+    padding: 4px 4px 4px 8px;
+}
+
+
+.aNationality {
+    color: #5ca6ce;
+    margin-left: 2px;
+}
+
+    .aNationality label {
+        cursor: pointer;
+    }
+
+.NationalityIcon {
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+
+.link {
+    color: #5ca6ce;
+}
+
+.btn-action {
+    border: 1px solid #989898;
+    padding: 2px 10px;
+    color: #989898;
+}
+
+.tdpricedetail {
+    width: 1px;
+}
+
+.tdChangePrice:hover {
+    display: table-cell;
+    height: 89px;
+}
+
+.tdChangePrice .divChangePrice {
+    margin-top: -20px;
+    margin-left: -14px;
+}
+
+.tdChangePrice:hover .divChangePrice {
+    display: inline-block;
+}
+
+.lblhoverhideprice {
+    margin-bottom: 0px;
+}
+
+.tdChangePrice:hover .lblhoverhideprice {
+    display: none;
+}
+
+.divChangePrice {
+    display: none;
+}
+
+.divChangePricedetail {
+    width: 118px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.incdincprice {
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 100%;
+    font-size: 11px;
+    display: inline-block;
+}
+
+.lblChangePrice {
+    width: 58px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.increaseprice {
+    color: #009846;
+}
+
+.decreaseprice {
+    color: #c02533;
+}
+
+.NotAvailable, .NotAvailable .accordionicon {
+    color: red !important;
+}
+
+.hotelTotalRoom {
+    color: #d80000;
+}
+
+.divManuallHotelDetail, .divHotelRoomDetail {
+    display: none;
+}
+
+.addMoreRoom .divhoverview {
+    margin-top: 61px !important;
+}
+
+.addMoreRoom:hover .divhoverhide {
+    margin-top: -86px !important;
+}
+
+.LoaderVisaCheckList {
+    min-height: 170px;
+}
+
+.chk > label {
+    vertical-align: top;
+    margin-left: 2px;
+    margin-top: 0px;
+}
+
+.lblHotelBookingDetailTitle {
+    width: 130px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.minheight300 {
+    min-height: 300px;
+}
+
+.searchstarimage {
+    height: 14px;
+    margin-top: -4px;
+}
+
+.smallpopup .modal-body {
+    background-color: #fff !important;
+}
+
+.divSearchHotelRoomDetailLoader {
+    height: 150px;
+    display: inline-block;
+    width: 100%;
+}
+
+.LoaderHotelDetail:before {
+    opacity: 1 !important;
+}
+
+.ui-slider .ui-slider-handle, .ui-slider .ui-slider-range {
+    z-index: 0 !important;
+}
+
+.lnkHotelHoverButton:hover {
+    background-color: #00aff0;
+    color: #fff;
+}
+
+.divInclusionConfirm {
+    display: none;
+    margin-left: 30px;
+}
+
+.divmainaccordion.active .divInclusionConfirm {
+    display: inline;
+}
+
+.aInclusionConfirm {
+    background-color: #dcdcdc;
+    color: #757575 !important;
+    padding: 6px 15px;
+    text-align: center;
+}
+
+    .aInclusionConfirm:hover {
+        background-color: #d4d4d4;
+    }
+
+.lblInclusionConfirm {
+    background-color: #dcdcdc;
+    height: 10px;
+    width: 30px;
+    margin: 0px -5px -1.5px -4px;
+}
+
+.InclusionConfirmTime {
+    line-height: 24px;
+    width: 145px;
+    display: inline-block;
+}
+
+.desableinclusion {
+    background-color: #efefef !important;
+}
+
+.activeinclusion {
+    background-color: #ef7f1b !important;
+    color: #fff !important;
+}
+
+.compliteinclusion {
+    background-color: #07a342 !important;
+    color: #fff !important;
+}
+
+.divManageInclusion {
+    display: inline-block;
+    width: 180px;
+}
+
+.lblBalanceNotAvailable {
+    color: red;
+    font-weight: bold;
+}
+
+.divTotalAmount {
+    color: #f11933;
+    font-size: 20px;
+    text-align: right;
+}
+
+.divMarkup {
+    text-align: right;
+    color: green;
+    font-size: 15px;
+}
+
+.divMarkupDetail {
+    margin-top: 5px;
+}
+
+.divNetPrice {
+    font-size: 17px;
+    text-align: right;
+    color: black;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+
+.payment-sectioninclusion .price-detail ul {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.price-detail {
+    margin-left: -5px;
+}
+
+.payment-sectioninclusion {
+    border-top: 1px solid #eae4e4;
+    padding-top: 20px;
+}
+
+    .payment-sectioninclusion .price-detail label {
+        float: left;
+        color: #034567;
+        font-size: 13px;
+        margin: 0 10px 0 0;
+        width: 200px;
+    }
+
+        .payment-sectioninclusion .price-detail label.discount {
+            color: #ff8400;
+            margin: 0 10px 0 0;
+            width: 200px;
+        }
+
+    .payment-sectioninclusion .price-detail span {
+        font-size: 13px;
+        color: #626262;
+    }
+
+        .payment-sectioninclusion .price-detail span.discount-price {
+            float: left;
+            font-size: 13px;
+            color: #329ac4 !important;
+        }
+
+    .payment-sectioninclusion .payment-gatway-detail {
+        padding: 0px 10px;
+    }
+
+    .payment-sectioninclusion .payment-agree {
+        padding: 10px 10px 0px 10px;
+    }
+
+        .payment-sectioninclusion .payment-agree span {
+            display: block;
+            margin: 0px 0;
+            font-size: 13px;
+            color: #3399c4;
+            margin-bottom: 20px;
+        }
+
+        .payment-sectioninclusion .payment-agree p {
+            font-size: 13px;
+            color: #626262;
+            margin-bottom: 20px;
+        }
+
+        .payment-sectioninclusion .payment-agree .pay-note {
+            width: 100%;
+            padding: 20px;
+            background: #fff2d3;
+            -webkit-border-radius: 7px 7px 7px 7px;
+            -moz-border-radius: 7px 7px 7px 7px;
+            border-radius: 7px 7px 7px 7px;
+        }
+
+            .payment-sectioninclusion .payment-agree .pay-note span {
+                display: inline-block;
+                max-width: 100%;
+                margin-bottom: 0px;
+                font-weight: bold;
+                color: #ff0000;
+            }
+
+            .payment-sectioninclusion .payment-agree .pay-note label {
+                font-size: 20px;
+                margin: 10px 0;
+                color: #f9700c !important;
+            }
+
+.MarkupAmount {
+    height: 29px;
+    width: 40px;
+    text-align: center;
+}
+
+.divDestinationItinerary .txtData, .txtItinerary {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    box-shadow: none !important;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+    .divDestinationItinerary .txtData:focus {
+        border-color: #66afe9 !important;
+    }
+
+.divDestinationItinerary .input-group {
+    width: 100%;
+}
+
+.divDestinationItinerary .divmapmarker, .divdatemarker {
+    display: table-cell !important;
+    padding: 0px 8px 0px 4px;
+    font-size: 18px;
+    color: #00b0ec;
+}
+
+.aItinerary {
+    background-color: #fff;
+    color: #000 !important;
+    padding: 6px;
+    box-shadow: 0 0px 3px rgba(41,51,57,.5);
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+    .aItinerary:hover {
+        background-color: #f9f9f9;
+    }
+
+.txtTravelDate {
+    max-width: 95px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.divDestinationItinerary .input-group-addon {
+    display: none;
+}
+
+.divaddDestination {
+    margin-bottom: 0;
+    margin-top: 26px;
+    margin-left: 5px !important;
+}
+
+.tblItinerary {
+    width: 100%;
+    border: 1px solid #d6d6d6;
+}
+
+    .tblItinerary tr td {
+        padding: 5px;
+        border-top: 1px solid #d6d6d6;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+.tdItineraryDestination {
+    padding: 0px 5px 0px 12px !important;
+}
+
+.tdManageItinerary {
+    width: 70px;
+    text-align: center;
+}
+
+.checkinoutstatus {
+    display: block;
+    font-size: 10px;
+}
+
+.tdItineraryCheckinout {
+    width: 120px;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+.lblItineraryDate {
+    font-weight: bold;
+}
+
+.tdItineraryNight {
+    width: 145px;
+}
+
+.tdItineraryStayat {
+    width: 200px;
+}
+
+.setDisableModule {
+    opacity: 0.7;
+    z-index: 999999999;
+}
+
+.divItinerary {
+    display: none;
+    margin-top: -6px;
+}
+
+.loader-content {
+    text-align: center;
+}
+
+.lblSearchDestinationName {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #01aef0;
+    margin-bottom: 10px;
+}
+
+.lblSearchCheckInOutDate {
+    color: #797979;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.lblSearchNight {
+    color: #01aef0;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.imgHotelSearchLoader {
+    width: 100%;
+}
+
+.divSearchHotelLoader {
+    padding: 0px 40px 20px 40px;
+}
+
+.divSearchHotelLoaderText {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.lblContactDetail {
+    color: #a9a9a9;
+}

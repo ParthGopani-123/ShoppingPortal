@@ -1,0 +1,243 @@
+*::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #b5b5b5 !important;
+}
+
+*:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #b5b5b5 !important;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #b5b5b5 !important;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #b5b5b5 !important;
+}
+
+.errormessage {
+    color: Red;
+}
+
+.clientimage {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #e6e6e6;
+    padding: 2px;
+}
+
+.body-bg-full .logo {
+    margin-bottom: 0px;
+    display: flow-root;
+}
+
+.imglogo {
+    height: 60px;
+    width: 117px;
+    float: left;
+}
+
+
+.body-bg-full.v2 .page-container .page-content .v2 {
+    max-width: 100%;
+}
+
+.SuccessMessage {
+    max-width: 800px !important;
+}
+
+.divSuccessMessage .logo {
+    text-align: center;
+}
+
+    .divSuccessMessage .logo .imglogo {
+        float: none;
+    }
+
+.lblAlreadyRegister {
+    color: #F68B29;
+}
+
+.lnkRegister {
+    width: 120px !important;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.btnCancelRegister {
+    background-color: #9c9c9c;
+    border-color: #9c9c9c;
+}
+
+    .btnCancelRegister:hover {
+        background-color: #888888 !important;
+        border-color: #888888 !important;
+    }
+
+.divAgentType {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.checkbox-blue input[type=checkbox] + label:before {
+    border: 1px solid #d8d8d8;
+    background-color: #ffffff;
+}
+
+.checkbox-blue input[type=checkbox] + label:after {
+    color: #fff;
+    font-size: 11px !important;
+    top: 10px !important;
+    left: 1px;
+    background-color: #00b0ec;
+    height: 14px;
+    width: 14px;
+    padding-left: 1px;
+}
+
+.radio-blue input[type=radio] + label:before {
+    border: 1px solid #00b0ec;
+}
+
+.radio-blue input[type=radio]:checked + label:after {
+    background-color: #00b0ec;
+}
+
+.divTitle {
+    margin: 20px 0px 10px 0px;
+    color: #00b0ec;
+    font-size: 15px;
+}
+
+.lblTitleNote {
+    color: #b5b5b5;
+}
+
+.body-bg-full .page-container .page-content {
+    text-align: left;
+    width: 85% !important;
+}
+
+.body-bg-full.v2 .page-container .page-content .v2 {
+    padding: 40px 40px 1px 40px;
+}
+
+.body-bg-full .form-control {
+    text-align: left;
+    border-color: #e6e6e6 !important;
+}
+
+.displayflex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.frmGroup {
+    margin-bottom: 0px;
+    padding: 6px;
+    border: 1px solid #e6e6e6;
+    margin: -1px 0px 0px -1px !important;
+}
+
+.divContent {
+    display: flow-root;
+}
+
+.lblDesignation {
+    color: #F68B29 !important;
+}
+
+.compolsory-star {
+    color: #e60000;
+}
+
+.txtEmail {
+    text-transform: lowercase;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.divMessageContent {
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+}
+
+.checkIcon {
+    font-size: 57px;
+    color: green;
+    border: 3px solid green;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.lblMainMsg {
+    display: block;
+    margin-top: 21px;
+    font-size: 22px;
+    color: green;
+}
+
+.lblMsg {
+    padding-top: 13px;
+    display: block;
+    font-size: 17px;
+}
+
+.divFileUpload {
+    height: 34px;
+    cursor: pointer;
+    border: 1px solid #e6e6e6;
+}
+
+    .divFileUpload label {
+        padding: 6px 8px 8px 8px;
+        cursor: pointer;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+.lblFileName {
+    height: 33px;
+    margin-bottom: 1px !important;
+    background-color: #eaeaea;
+    width: 60%;
+}
+
+.lblFilePath {
+    height: 34px;
+    margin-bottom: 0px !important;
+    width: 38%;
+    color: #b5b5b5;
+}
+
+.lblTitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 30px;
+    color: #949698;
+    float: right;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+@media (min-width: 768px) {
+    .form-horizontal .control-label {
+        padding-top: 7px !important;
+    }
+}

@@ -1,0 +1,211 @@
+.calender {
+	display: block;
+	border: 1px solid #ccc;
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+	.calender .cal-month-title {
+		padding: 8px;
+		font-size: 20px;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		border-bottom: 1px solid #ddd;
+		letter-spacing: 1px;
+	}
+
+	.calender .cal-dates {
+		display: table;
+		width: 100%;
+	}
+
+		.calender .cal-dates .ul-days {
+			list-style: none;
+			padding: 0px;
+			margin: 0;
+			display: inline-block;
+			width: 100%;
+			float: left;
+		}
+
+			.calender .cal-dates .ul-days .day {
+				float: left;
+				width: 14.285710%;
+				text-align: center;
+				text-transform: uppercase;
+				padding: 3px;
+				border-bottom: 1px solid #ddd;
+				border-left: 1px solid #ddd;
+			}
+
+		.calender .cal-dates .ul-dates {
+			list-style: none;
+			padding: 0px;
+			margin: 0;
+			display: inline-block;
+			width: 100%;
+			float: left;
+		}
+
+			.calender .cal-dates .ul-dates .date {
+				float: left;
+				width: 14.285710%;
+				text-align: center;
+				padding: 3px;
+				border-bottom: 1px solid #ddd;
+				border-left: 1px solid #ddd;
+				min-height: 60px;
+				height: 60px;
+			}
+
+.lbldate {
+	float: right;
+	display: inline-block;
+	color: #203650;
+}
+
+.lbldescription {
+	float: left;
+	width: 100%;
+	min-width: 21px;
+	height: 21px;
+	line-height: 23px;
+	border-radius: 20%;
+	background: #1f364f;
+	color: #fff;
+	padding: 0px 2px;
+}
+
+.calender .cal-dates .ul-dates .date .hover-client {
+	display: none;
+	position: absolute;
+	background: #f5f5f5;
+	min-width: 200px;
+	padding: 5px;
+	border: 1px solid #ddd;
+	margin-left: -34px;
+	margin-top: 3px;
+	min-height: 96px;
+	max-height: 300px;
+	overflow-y: scroll;
+}
+
+.calender .cal-dates .ul-dates .date .hoverdescritption:hover .hover-client {
+	display: block;
+}
+
+.hoverdescritption {
+	display: inline-block;
+	float: left;
+}
+
+.calender .cal-dates .ul-dates .disabled {
+	background: #f5f5f5;
+}
+
+.calender .cal-dates .ul-dates .active {
+	background: rgba(174, 225, 249, 0.55);
+}
+
+.divtotalsecond {
+	width: 100%;
+	display: inline-block;
+}
+
+.totalsecond {
+	display: inline-block;
+	text-align: center;
+	color: #0a0a0a;
+	font-size: 11px;
+	padding: 2px 3px 0px 3px;
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+.calender .cal-dates .ul-dates .selected {
+	background: #f5f4f4;
+	box-shadow: inset 0px 0px 7px #6f6e6e;
+}
+
+.form-control {
+	padding: 4px 6px 6px;
+	border-radius: 1px;
+}
+
+.date {
+	cursor: pointer;
+}
+
+.lblSelectDate {
+	font-weight: bolder;
+}
+
+.lblSelectTime {
+	font-size: 10px;
+	margin-left: 10px;
+	display: flex;
+}
+
+.divenabled {
+	cursor: not-allowed;
+	pointer-events: none;
+	background-color: #f5f5f5 !important;
+}
+
+.viewtimeshidule {
+	z-index: 999999999999999;
+	opacity: 999;
+}
+
+.lbllblDateDescription {
+	background-color: #a1b1c3 !important;
+}
+
+.dropdowndesc {
+	display: table !important;
+}
+
+.dropdown-desc {
+	left: auto;
+	right: 0px;
+	margin-top: 0px !important;
+}
+
+.MyClass label {
+	color: Blue;
+}
+
+.MyClass input[type='checkbox'] {
+	background-color: Red;
+}
+
+.progressing-bar {
+	height: 15px;
+	background: #e8e8e8;
+	border-radius: 5px;
+	margin-top: -5px;
+}
+
+	.progressing-bar .Allocation-bar {
+		height: 15px;
+		line-height: 25px;
+		color: #fff;
+		font-weight: bold;
+		text-align: right;
+		padding-right: 0px;
+		width: 0px;
+		border-radius: 5px;
+		max-width: 100%;
+	}
+
+	.progressing-bar label {
+		margin-top: -15px;
+		display: block;
+		font-size: 12px;
+		margin-left: 1%;
+		font-weight: bold;
+		color: #152436;
+		transition: width 0.4s;
+		-webkit-transition: width 0.4s;
+	}

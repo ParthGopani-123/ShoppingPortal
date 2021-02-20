@@ -1,0 +1,36 @@
+/* Telr Payment Gatway Upload */
+.jumbotron > hr
+{
+	border-top: 3px solid #ffd331;
+`	margin-top: 5px;
+    margin-bottom: 5px;
+	display:none;
+}
+.jumbotron h1 {
+    background-image: url({{FileBase}}logo.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+	margin: 0px;
+    height: 80px;
+}
+
+.jumbotron
+{
+	color: #000;
+    background-color: #fff;
+	padding: 0px !important;
+    margin-top: 0px;
+	height: 75px;
+}
+.jumbotron .amount
+{
+	display: block;
+    margin-top: -55px;
+    margin-left: 3px;
+	margin-bottom: 0px;
+}
+
+.jumbotron .tName {
+    font-size: 40px;
+	display: none;
+}

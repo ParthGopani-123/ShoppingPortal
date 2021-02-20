@@ -1,0 +1,578 @@
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.tag-list .tag {
+    background: #152436;
+    color: #fff;
+    margin: 2px;
+    padding: 5px 10px;
+    float: left;
+    cursor: pointer;
+    font-size: 12px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    width: 10px;
+}
+
+.mCSB_scrollTools .mCSB_draggerContainer {
+    right: -5px;
+}
+
+label {
+    font-weight: 500;
+}
+
+.mt10 {
+    margin-top: 7px;
+}
+
+.chk-group-detail {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px !important;
+    padding: 3px;
+}
+
+    .chk-group-detail div {
+    }
+
+        .chk-group-detail div span {
+            margin-right: 10px;
+            font-size: 11px;
+        }
+
+.mb5 {
+    margin-bottom: 5px !important;
+}
+
+.btn-send {
+    position: fixed;
+    right: 40px;
+    background: #78b4f9;
+    border: 2px solid #78b4f9;
+    color: #f5f5f5;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px #353535;
+    transition: background 0.5s, color 0.5s, border 0.5s;
+    -webkit-transition: background 0.5s, color 0.5s, border 0.5s;
+    z-index: 9;
+    bottom: 13px;
+    text-align: center;
+    line-height: 90px;
+    opacity: 0.5;
+}
+
+    .btn-send:hover {
+        background: #3d93f5;
+        border: 2px solid #3d93f5;
+        color: #fff;
+        opacity: 1;
+    }
+
+.btn-sendconfirm {
+    background: #f35369;
+    border: 2px solid #f35369;
+}
+
+    .btn-sendconfirm:hover {
+        background: #f35369;
+        border: 2px solid #f35369;
+        color: #fff;
+        opacity: 1;
+    }
+
+.txtSMS, .txtSampleText {
+    min-height: 200px !important;
+}
+
+
+.highlightTextarea, .highlightTextarea .highlightTextarea-container {
+    width: 100% !important;
+}
+
+label.checkbox-custom {
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+    label.checkbox-custom:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 2px;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #e6e6e6;
+        border-radius: 2px;
+    }
+
+    label.checkbox-custom:after {
+        position: absolute;
+        top: -5px;
+        left: 1px;
+        font-family: themify;
+        content: "\e64c";
+        font-size: 18px;
+        -webkit-transition: all .1s ease-in-out;
+        -moz-transition: all .1s ease-in-out;
+        -o-transition: all .1s ease-in-out;
+        transition: all .1s ease-in-out;
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transform: scale(0);
+    }
+
+    label.checkbox-custom.checkbox-success:before {
+        border-color: #17A88B;
+    }
+
+    label.checkbox-custom.checkbox-warning:before {
+        border-color: #FFB61E;
+    }
+
+    label.checkbox-custom.checkbox-error:before {
+        border-color: #E5343D;
+    }
+
+    label.checkbox-custom.checked:after {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+
+.ml-title {
+    margin-left: 20px;
+}
+
+.onoff {
+    cursor: pointer;
+}
+
+    .onoff .ml-title {
+        margin-left: 37px;
+        font-size: 12px;
+    }
+
+label.checkbox-custom.checked {
+    background: #dbffe9;
+}
+
+label.onoff input[type=checkbox], label.onoff input[type=radio] {
+    visibility: hidden;
+}
+
+label.onoff:before, label.onoff:after {
+    display: block;
+    position: absolute;
+    content: "";
+}
+
+label.onoff:before {
+    background-color: #f35369;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
+    -o-transition: background 0.4s;
+    transition: background 0.4s;
+    width: 50px;
+    height: 23px;
+    content: "No";
+    color: #fff;
+    line-height: 24px;
+    text-align: right;
+    padding-right: 7px;
+    padding-left: 0px;
+    padding-top: 1px;
+    font-size: 12px;
+}
+
+label.onoff:after {
+    width: 17px;
+    height: 17px;
+    top: 3px;
+    margin-left: 4px;
+    background-color: #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-transition: margin 0.4s;
+    -moz-transition: margin 0.4s;
+    -o-transition: margin 0.4s;
+    transition: margin 0.4s;
+}
+
+label.onoff.swiched:after {
+    margin-left: 29px;
+}
+
+label.onoff.swiched:before {
+    background-color: #8ce196;
+    content: "Yes";
+    text-align: left;
+    padding-right: 0px;
+    padding-left: 6px;
+    padding-top: 1px;
+    font-size: 12px;
+}
+
+.highlightTextarea.debug .highlightTextarea-highlighter {
+    border: none !important;
+    color: #333 !important;
+    text-shadow: none !important;
+    margin: 0px !important;
+}
+
+.blank-msg {
+    font-size: 18px;
+    text-align: center;
+    height: 102px;
+    line-height: 102px;
+}
+
+.progressing-bar {
+    height: 25px !important;
+    background: #f2f2f2;
+    border-radius: 5px;
+}
+
+    .progressing-bar #progressing-bar {
+        height: 25px;
+        background-color: #19a4ab;
+        line-height: 25px;
+        color: #fff;
+        font-weight: bold;
+        text-align: right;
+        padding-right: 0px;
+        width: 0px;
+        border-radius: 5px;
+    }
+
+#sms-length-bar label {
+    margin-top: -20px;
+    display: block;
+    font-size: 12px;
+    margin-left: 1%;
+    font-weight: bold;
+    color: #152436;
+    transition: width 0.4s;
+    -webkit-transition: width 0.4s;
+    -moz-transition: width 0.4s;
+}
+
+.right-bar .tab-content {
+    display: inline-block;
+    border-left: 1px solid #c1bfbf;
+    width: 100%;
+    padding-top: 15px;
+}
+
+@media (max-width:992px) {
+    .right-bar .tab-content {
+        height: auto !important;
+        min-height: auto !important;
+    }
+
+    .page-content {
+        max-height: 100%;
+        min-height: auto;
+    }
+}
+
+@media (max-width:768px) {
+    .page-content {
+        max-height: 100%;
+        min-height: auto;
+    }
+
+    .form-control {
+        margin-bottom: 10px;
+    }
+
+    .input-group {
+        margin-top: 10px;
+    }
+
+    .txtSMS, .txtSampleText {
+        min-height: 170px !important;
+    }
+}
+/*
+.txtSMS
+{
+	background: url(  "../../SystemImages/type-message.jpg" ) no-repeat center;
+}
+.txtSampleText
+{
+	background: url(  "../../SystemImages/sample-message.jpg" ) no-repeat center;
+}
+.txtMobile
+{
+	background: url(  "../../SystemImages/type-mobile.jpg" ) no-repeat center;
+}
+*/
+
+.txtSMS {
+    background: url( "http://static.octfis.com/SystemImages/type-message.jpg" ) no-repeat center;
+}
+
+.txtSampleText {
+    background: url( "http://static.octfis.com/SystemImages/sample-message.jpg" ) no-repeat center;
+}
+
+.txtMobile {
+    min-height: 150px !important;
+    background: url( "http://static.octfis.com/SystemImages/type-mobile.jpg" ) no-repeat center;
+}
+
+.smsdata {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ezdz-dropzone {
+}
+
+.divleft {
+    padding-right: 3px;
+}
+
+.divright {
+    padding-left: 3px;
+}
+
+@media (max-width: 768px) {
+    .divleft {
+        padding-right: 15px;
+    }
+
+    .divright {
+        padding-left: 15px;
+    }
+
+    .pr-0xs {
+        padding-right: 0px !important;
+    }
+
+    .pl-0xs {
+        padding-left: 0px !important;
+    }
+
+    .pr-5xs {
+        padding-right: 5px;
+    }
+
+    .pl-5xs {
+        padding-left: 5px;
+    }
+
+    .noaddonborderxs {
+        padding: 0;
+        border: none;
+    }
+}
+
+@media (min-width:0px) {
+    .nav-tabs.nav-justified > li > a {
+        border-bottom: 1px solid #c1bfbf;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
+        border-bottom-color: #fff;
+    }
+}
+
+@media (min-width:0px) {
+    .nav-tabs.nav-justified > li {
+        display: table-cell;
+        width: 1%;
+    }
+
+        .nav-tabs.nav-justified > li > a {
+            margin-bottom: 0;
+        }
+}
+
+.chkShowSample {
+    cursor: pointer;
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .chkShowSample {
+        display: none !important;
+    }
+
+    .divsampletext {
+        display: block !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .divsampletext {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .lblFilename {
+        max-width: 190px;
+    }
+}
+
+.btnmedia {
+    width: 125px;
+    text-align: right;
+    border: none;
+}
+
+.newflag {
+    position: absolute;
+    z-index: 999;
+    border-radius: 4px;
+    padding: 0px 5px 0px 5px;
+    top: -5px;
+    margin-left: 92px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.max-width-300 {
+    max-width: 300px;
+}
+
+.btn-send {
+    bottom: 13px;
+    right: 40px;
+}
+
+.divSendConfirmSMS {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 0%;
+    height: 0%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 999;
+    border-radius: 100%;
+}
+
+.lnkSendConfirmSMS {
+    opacity: 1;
+}
+
+    .lnkSendConfirmSMS:hover {
+        border: 2px solid #f35369;
+        background: #f35369;
+    }
+
+.are-you {
+    font-size: 12px;
+    line-height: 1;
+    margin-top: 28px;
+    margin-bottom: 0;
+    color: #FFF;
+}
+
+.sure {
+    line-height: 0.9;
+    padding-top: 5px;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.lnkNotSure {
+    color: #FFF !important;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.dropdown-menu {
+    max-height: 326px;
+    overflow-y: auto;
+}
+
+    .dropdown-menu > li > a {
+        border: none;
+        display: inline-block !important;
+    }
+
+    .dropdown-menu > li > label {
+        padding: 3px 0px;
+        clear: both;
+        font-weight: 400;
+        line-height: 1.42857143;
+        color: #333;
+        white-space: nowrap;
+        display: inline;
+        cursor: pointer;
+    }
+
+.liMidiaFile {
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-menu > li:focus,
+.dropdown-menu > li:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    color: #0773ef;
+}
+
+.ulMedia {
+    max-width: 300px;
+    min-width: 180px;
+}
+
+.bg-purple {
+    background-color: #9939e3;
+    color: #FFF;
+}
+
+a.bg-purple:focus, a.bg-purple:hover {
+    background-color: #801dcd;
+}
+
+.sheetName {
+    width: 100%;
+    text-align: center;
+}
+
+.lblExcelSendRow {
+    margin-bottom: 0px;
+    font-size: 10px;
+}

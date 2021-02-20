@@ -1,0 +1,413 @@
+﻿
+.col
+{
+	float: left;
+}
+.col1
+{
+	width: 8.3333%;
+}
+.col2
+{
+	width: 16.6666%;
+}
+.col3
+{
+	width: 25%;
+}
+.col4
+{
+	width: 33.3333%;
+}
+.col5
+{
+	width: 41.66666%;
+}
+.col6
+{
+	width: 50%;
+}
+.col7
+{
+	width: 58.3333%;
+}
+.col8
+{
+	width: 66.6666%;
+}
+.col9
+{
+	width: 74.9999%;
+}
+.col10
+{
+	width: 83.3333%;
+}
+.col11
+{
+	width: 91.6666%;
+}
+.col12
+{
+	width: 100%;
+}
+
+.border
+{
+	border: 1px solid #ddd;
+}
+.border-bottom
+{
+	border: 1px solid #ddd;
+}
+.border-top
+{
+	border: 1px solid #ddd;
+}
+.border-right
+{
+	border: 1px solid #ddd;
+}
+.border-left
+{
+	border: 1px solid #ddd;
+}
+
+.p0
+{
+	padding: 0px;
+}
+.pt0
+{
+	padding-top: 0px;
+}
+.pl0
+{
+	padding-left: 0px;
+}
+.pr0
+{
+	padding-right: 0px;
+}
+.pb0
+{
+	padding-bottom: 0px;
+}
+.p5
+{
+	padding: 5px;
+}
+.pt5
+{
+	padding-top: 5px;
+}
+.pl5
+{
+	padding-left: 5px;
+}
+.pr5
+{
+	padding-right: 5px;
+}
+.pb5
+{
+	padding-bottom: 5px;
+}
+
+.p10
+{
+	padding: 10px;
+}
+.pt10
+{
+	padding-top: 10px;
+}
+.pl10
+{
+	padding-left: 10px;
+}
+.pr10
+{
+	padding-right: 10px;
+}
+.pb10
+{
+	padding-bottom: 10px;
+}
+.p15
+{
+	padding: 15px;
+}
+.pt15
+{
+	padding-top: 15px;
+}
+.pl15
+{
+	padding-left: 15px;
+}
+.pr15
+{
+	padding-right: 15px;
+}
+.pb15
+{
+	padding-bottom: 15px;
+}
+.p20
+{
+	padding: 20px;
+}
+.pt20
+{
+	padding-top: 20px;
+}
+.pl20
+{
+	padding-left: 20px;
+}
+.pr20
+{
+	padding-right: 20px;
+}
+.pb20
+{
+	padding-bottom: 20px;
+}
+.p15
+{
+	padding: 25px;
+}
+.pt25
+{
+	padding-top: 25px;
+}
+.pl25
+{
+	padding-left: 25px;
+}
+.pr25
+{
+	padding-right: 25px;
+}
+.pb25
+{
+	padding-bottom: 25px;
+}
+
+
+
+.m0
+{
+	margin: 0px;
+}
+.mt0
+{
+	margin-top: 0px;
+}
+.ml0
+{
+	margin-left: 0px;
+}
+.mr0
+{
+	margin-right: 0px;
+}
+.mb0
+{
+	margin-bottom: 0px;
+}
+.m5
+{
+	margin: 5px;
+}
+.mt5
+{
+	margin-top: 5px;
+}
+.ml5
+{
+	margin-left: 5px;
+}
+.mr5
+{
+	margin-right: 5px;
+}
+.mb5
+{
+	margin-bottom: 5px;
+}
+
+.m10
+{
+	margin: 10px;
+}
+.mt10
+{
+	margin-top: 10px;
+}
+.ml10
+{
+	margin-left: 10px;
+}
+.mr10
+{
+	margin-right: 10px;
+}
+.mb10
+{
+	margin-bottom: 10px;
+}
+.m15
+{
+	margin: 15px;
+}
+.mt15
+{
+	margin-top: 15px;
+}
+.ml15
+{
+	margin-left: 15px;
+}
+.mr15
+{
+	margin-right: 15px;
+}
+.mb15
+{
+	margin-bottom: 15px;
+}
+.m20
+{
+	margin: 20px;
+}
+.mt20
+{
+	margin-top: 20px;
+}
+.ml20
+{
+	margin-left: 20px;
+}
+.mr20
+{
+	margin-right: 20px;
+}
+.mb20
+{
+	margin-bottom: 20px;
+}
+.m25
+{
+	margin: 25px;
+}
+.mt25
+{
+	margin-top: 25px;
+}
+.ml25
+{
+	margin-left: 25px;
+}
+.mr25
+{
+	margin-right: 25px;
+}
+.mb25
+{
+	margin-bottom: 25px;
+}
+
+.m0auto
+{
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.text-center
+{
+	text-align: center;
+}
+
+.button
+{
+	transition: all 1s ease;
+	background: #DADADA;
+	padding: 5px 10px;
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	font-family: sans-serif;
+	box-shadow: 0px 0px 1px 2px #C0BFBF;
+	border-radius: 3px;
+}
+.button-exlarge
+{
+	padding: 8px 55px;
+}
+.button-green:hover
+{
+	background: green;
+	color: #fff;
+}
+.done
+{
+	padding: 8px 10px;
+	background: #9DC8A5;
+	color: #000;
+	box-shadow: 0px 0px 1px 2px #6ABA6E;
+	border-radius: 2px;
+	margin-bottom: 15px;
+}
+.close
+{
+	float: right;
+	color: #000;
+	height: 10px;
+	width: 10px;
+	text-decoration: none;
+}
+.fail
+{
+	padding: 8px 10px;
+	background: #C89D9D;
+	color: #000;
+	box-shadow: 0px 0px 1px 2px #BA6A6A;
+	border-radius: 2px;
+	margin-bottom: 15px;
+}
+.LastVersionUpdateDate
+{
+	font-size: 15px;
+}
+body
+{
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.load-button
+{
+	background-image: -webkit-linear-gradient(135deg,#e5e5e5 25%,transparent 25%,transparent 50%,#e5e5e5 50%,#e5e5e5 75%,transparent 75%,transparent);
+	background-image: -moz-linear-gradient(135deg,#e5e5e5 25%,transparent 25%,transparent 50%,#e5e5e5 50%,#e5e5e5 75%,transparent 75%,transparent);
+	background-image: linear-gradient(135deg,#e5e5e5 25%,transparent 25%,transparent 50%,#e5e5e5 50%,#e5e5e5 75%,transparent 75%,transparent);
+	-webkit-transition: width 0.5s ease-in-out;
+	-moz-transition: width 0.5s ease-in-out;
+	-o-transition: width 0.5s ease-in-out;
+	transition: width 0.5s ease-in-out;
+	-webkit-background-size: 50px 50px;
+	background-size: 50px 50px;
+	-moz-animation: animate-stripes 3s infinite linear;
+	-webkit-animation: animate-stripes 3s infinite linear;
+	-o-animation: animate-stripes 3s infinite linear;
+	-ms-animation: animate-stripes 3s infinite linear;
+	animation: animate-stripes 3s infinite linear;
+	cursor: default;
+	box-shadow: none;
+	pointer-events: none;
+}
+ @keyframes animate-stripes{0%{background-position:0 0;}100%{background-position:50px 0;}}
+@-webkit-keyframes animate-stripes{0%{background-position:0 0;}100%{background-position:50px 0;}}
+@-moz-keyframes animate-stripes{0%{background-position:0 0;}100%{background-position:50px 0;}}
+@-o-keyframes animate-stripes{0%{background-position:0 0;}100%{background-position:50px 0;}}
+
